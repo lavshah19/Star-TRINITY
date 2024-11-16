@@ -14,21 +14,21 @@ const Home = () => {
 
   return (
     <>
-      <div className="min-h-screen flex items-center bg-gray-900 text-white">
-        <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-12 bg-gray-800 bg-opacity-90 rounded-lg p-8 md:p-12 shadow-xl">
+      <div className="min-h-screen flex items-center  text-white">
+        <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-12 bg-white bg-opacity-90 rounded-lg p-8 md:p-12 ">
           {/* Left Content Section */}
           <div className="md:w-1/2 space-y-8 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-teal-400">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-[#711B45]">
               Welcome to STAR TRINITY CONTRACTING
             </h1>
-            <p className="text-lg md:text-xl text-gray-300">
+            <p className="text-lg md:text-xl text-gray-800">
               Your reliable partner in high-quality trading and service
               solutions. We offer expertise and commitment to meet your
               business needs.
             </p>
 
             {/* Mission Statement */}
-            <div className="bg-teal-500 text-gray-900 rounded-lg p-6 shadow-lg">
+            <div className="bg-[#711B45] text-white rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-2">Our Mission</h2>
               <p className="text-md leading-relaxed">
                 At STAR TRINITY CONTRACTING W.L.L, we are committed to providing
@@ -41,12 +41,12 @@ const Home = () => {
 
             {/* Call to Action */}
             <div className="mt-6">
-              <p className="text-xl font-medium text-teal-400 mb-4">
+              <p className="text-xl font-medium text-[#711B45] mb-4">
                 Want to know more about our services? Reach out to us!
               </p>
               <button
                 onClick={handleContactClick}
-                className="bg-teal-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-teal-700 transition"
+                className="bg-[#711B45] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#9B2D56] transition"
               >
                 Contact Us
               </button>

@@ -26,15 +26,16 @@ const services = [
 
 const Service2 = () => {
   return (
-    <div className=' bg-gray-900' >
+    <div className='bg-white'>
       <motion.h2 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-4xl font-bold  text-teal-400 text-center mb-8"
+        className="text-4xl font-bold text-[#711B45] text-center mb-8"
       >
         General Cleaning & Hospitality Services
       </motion.h2>
+
       <div
         className="min-h-screen flex items-center justify-center bg-cover bg-center"
         style={{
@@ -51,7 +52,7 @@ const Service2 = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl font-bold text-yellow-400 text-center mb-8"
+            className="text-4xl font-bold text-white text-center mb-8"
           >
             General Cleaning & Hospitality Services
           </motion.h2>
@@ -74,7 +75,7 @@ const Service2 = () => {
                 transition={{ duration: 0.5, delay: 0.1 * index }}
                 className="flex items-start"
               >
-                <span className="mr-2 text-yellow-400">•</span> {service}
+                <span className="mr-2 text-yellow-300">•</span> {service}
               </motion.p>
             ))}
           </div>

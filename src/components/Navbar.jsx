@@ -11,17 +11,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 text-white py-4 px-4 md:px-8 shadow-lg sticky top-0 w-full z-20">
+    <nav className="bg-[#711B45] text-white py-4 px-4 md:px-8 shadow-lg sticky top-0 w-full z-20">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <h1 className="text-sm sm:text-lg md:text-2xl font-bold truncate">
-            <span className="text-teal-400">STAR </span> TRINITY CONTRACTING W.L.L
+            <span className="text-white">STAR </span> TRINITY CONTRACTING W.L.L
           </h1>
 
           {/* Hamburger Menu */}
           <button
-            className="text-teal-400 lg:hidden text-2xl sm:text-3xl focus:outline-none"
+            className="text-white lg:hidden text-2xl sm:text-3xl focus:outline-none"
             onClick={toggleMenu}
             aria-expanded={isOpen}
             aria-controls="navbar-menu"
@@ -36,7 +36,7 @@ const Navbar = () => {
               to="/"
               className={`relative px-3 py-2 font-medium transition-colors duration-200 ${
                 location.pathname === '/'
-                  ? 'text-teal-400 border-b-2 border-teal-400'
+                  ? 'text-white border-b-2 border-white'
                   : 'hover:text-teal-300'
               }`}
             >
@@ -46,7 +46,7 @@ const Navbar = () => {
               to="/about"
               className={`relative px-3 py-2 font-medium transition-colors duration-200 ${
                 location.pathname === '/about'
-                  ? 'text-teal-400 border-b-2 border-teal-400'
+                  ? 'text-white border-b-2 border-white'
                   : 'hover:text-teal-300'
               }`}
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
               to="/services"
               className={`relative px-3 py-2 font-medium transition-colors duration-200 ${
                 location.pathname === '/services'
-                  ? 'text-teal-400 border-b-2 border-teal-400'
+                  ? 'text-white border-b-2 border-white'
                   : 'hover:text-teal-300'
               }`}
             >
@@ -66,7 +66,7 @@ const Navbar = () => {
               to="/contact"
               className={`relative px-3 py-2 font-medium transition-colors duration-200 ${
                 location.pathname === '/contact'
-                  ? 'text-teal-400 border-b-2 border-teal-400'
+                  ? 'text-white border-b-2 border-white'
                   : 'hover:text-teal-300'
               }`}
             >
@@ -78,17 +78,15 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         <div
           id="navbar-menu"
-          className={`lg:hidden ${
-            isOpen ? 'block' : 'hidden'
-          } transition-all duration-300 ease-in-out`}
+          className={`lg:hidden ${isOpen ? 'block' : 'hidden'} transition-all duration-300 ease-in-out`}
         >
           <div className="flex flex-col space-y-4 pt-4 pb-3">
             <Link
               to="/"
               className={`relative block px-4 py-2 font-medium text-center transition-colors duration-200 ${
                 location.pathname === '/'
-                  ? 'text-teal-400 bg-gray-800'
-                  : 'hover:text-teal-300 hover:bg-gray-800'
+                  ? 'text-white bg-[#711B45]'
+                  : 'hover:text-teal-300 hover:bg-[#711B45]'
               }`}
               onClick={toggleMenu}
             >
@@ -98,8 +96,8 @@ const Navbar = () => {
               to="/about"
               className={`relative block px-4 py-2 font-medium text-center transition-colors duration-200 ${
                 location.pathname === '/about'
-                  ? 'text-teal-400 bg-gray-800'
-                  : 'hover:text-teal-300 hover:bg-gray-800'
+                  ? 'text-white bg-[#711B45]'
+                  : 'hover:text-teal-300 hover:bg-[#711B45]'
               }`}
               onClick={toggleMenu}
             >
@@ -109,8 +107,8 @@ const Navbar = () => {
               to="/services"
               className={`relative block px-4 py-2 font-medium text-center transition-colors duration-200 ${
                 location.pathname === '/services'
-                  ? 'text-teal-400 bg-gray-800'
-                  : 'hover:text-teal-300 hover:bg-gray-800'
+                  ? 'text-white bg-[#711B45]'
+                  : 'hover:text-teal-300 hover:bg-[#711B45]'
               }`}
               onClick={toggleMenu}
             >
@@ -120,8 +118,8 @@ const Navbar = () => {
               to="/contact"
               className={`relative block px-4 py-2 font-medium text-center transition-colors duration-200 ${
                 location.pathname === '/contact'
-                  ? 'text-teal-400 bg-gray-800'
-                  : 'hover:text-teal-300 hover:bg-gray-800'
+                  ? 'text-white bg-[#711B45]'
+                  : 'hover:text-teal-300 hover:bg-[#711B45]'
               }`}
               onClick={toggleMenu}
             >

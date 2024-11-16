@@ -19,14 +19,14 @@ const ConstructionServices = () => {
   ];
 
   return (
-    <div className="bg-gray-900 min-h-screen p-5 md:p-10">
-      <h1 className="text-4xl font-bold text-center  text-teal-400  mb-10">
+    <div className="bg-white min-h-screen p-5 md:p-10">
+      <h1 className="text-4xl font-bold text-center text-[#711B45] mb-10">
         Construction & Engineering Services
       </h1>
 
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute border-l-4 border-indigo-500 left-0 md:left-1/2 h-full top-0 transform -translate-x-1/2"></div>
+        <div className="absolute border-l-4 border-[#711B45] left-0 md:left-1/2 h-full top-0 transform -translate-x-1/2"></div>
 
         {/* Loop through services and create boxes */}
         {services.map((service, index) => (
@@ -37,18 +37,18 @@ const ConstructionServices = () => {
             <div
               className="shadow-lg rounded-lg p-6 w-full md:w-1/2 transition-transform duration-300 ease-in-out hover:scale-105"
               style={{
-                backgroundColor: index % 2 === 0 ? '#1f2937' : '#2d3748', // Dark background for even boxes, darker shade for odd boxes
+                backgroundColor: index % 2 === 0 ? '#f3f4f6' : '#e2e8f0', // Light background for even boxes, darker light background for odd boxes
               }}
             >
               <h2
                 className="text-2xl font-semibold"
                 style={{
-                  color: index % 2 === 0 ? '#e2e8f0' : '#63b3ed', // Light text for even boxes, light blue for odd boxes
+                  color: index % 2 === 0 ? '#711B45' : '#1a202c', // Magenta text for even boxes, dark text for odd boxes
                 }}
               >
                 {service.title}
               </h2>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 {service.description}
               </p>
             </div>
@@ -57,11 +57,11 @@ const ConstructionServices = () => {
 
         {/* Additional Services List */}
         <div className="flex justify-start mb-5">
-          <div className="bg-[#2d3748] shadow-lg rounded-lg p-6 w-full md:w-1/2 transition-transform duration-300 ease-in-out hover:scale-105">
-            <h3 className="text-xl font-semibold text-indigo-300 mb-2">
+          <div className="bg-[#e2e8f0] shadow-lg rounded-lg p-6 w-full md:w-1/2 transition-transform duration-300 ease-in-out hover:scale-105">
+            <h3 className="text-xl font-semibold text-[#711B45] mb-2">
               Additional Services:
             </h3>
-            <ul className="list-disc list-inside text-gray-300">
+            <ul className="list-disc list-inside text-gray-700">
               <li>General Construction</li>
               <li>Building Maintenance Works</li>
               <li>Civil & MEP Services</li>

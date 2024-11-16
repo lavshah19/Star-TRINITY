@@ -6,7 +6,6 @@ import ConstructionServices from './ConstructionServices';
 import MajorClients from './MajorClients';
 
 const Services = () => {
-  // Define services in a structured format with unique images
   const services = [
     {
       title: "Construction Services",
@@ -15,7 +14,7 @@ const Services = () => {
         "Carpenter (Finishing & Shuttering, Fixer)",
         "Scaffolder (Certified)"
       ],
-      img: "https://plus.unsplash.com/premium_photo-1682882688309-54527c93dc97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with specific images
+      img: "https://plus.unsplash.com/premium_photo-1682882688309-54527c93dc97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Electrical Services",
@@ -25,7 +24,7 @@ const Services = () => {
         "Plumber",
         "Rigger (Certified)"
       ],
-      img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with specific images
+      img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Operational Roles",
@@ -35,7 +34,7 @@ const Services = () => {
         "Manlift Operator",
         "Forklift Operator",
       ],
-      img: "https://plus.unsplash.com/premium_photo-1661962226921-4ae283c4be59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with specific images
+      img: "https://plus.unsplash.com/premium_photo-1661962226921-4ae283c4be59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Fabrication and Maintenance",
@@ -47,7 +46,7 @@ const Services = () => {
         "Welder (Certified)",
         "Duct Man",
       ],
-      img: "https://images.unsplash.com/photo-1513350375601-5040cae53a97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with specific images
+      img: "https://images.unsplash.com/photo-1513350375601-5040cae53a97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Installation and Management",
@@ -59,7 +58,7 @@ const Services = () => {
         "Heavy Duty Driver",
         "Store Keeper",
       ],
-      img: "https://plus.unsplash.com/premium_photo-1681074963670-2110c58f4c24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with specific images
+      img: "https://plus.unsplash.com/premium_photo-1681074963670-2110c58f4c24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
 
@@ -67,15 +66,15 @@ const Services = () => {
     <>
       <motion.div 
         id="services" 
-        className="min-h-screen flex items-center bg-gray-900 text-white"
+        className="min-h-screen flex items-center  text-white"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <div className="container mx-auto bg-gray-800 p-8 md:p-12 rounded-lg shadow-xl">
+        <div className="container mx-auto bg-white p-8 md:p-12 rounded-lg ">
           <motion.h1 
-            className="text-4xl font-extrabold text-teal-500 text-center mb-8"
+            className="text-4xl font-extrabold text-[#711B45] text-center mb-8"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -98,10 +97,10 @@ const Services = () => {
                   backgroundPosition: 'center',
                 }}
               >
-                <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 ease-in-out hover:bg-opacity-30" />
+                <div className="absolute inset-0 bg-black bg-opacity-60 transition-opacity duration-300 ease-in-out hover:bg-opacity-30" />
                 <div className="relative p-6">
-                  <h2 className="text-2xl font-semibold text-teal-500 mb-4">{service.title}</h2>
-                  <ul className="list-disc list-inside text-gray-100">
+                  <h2 className="text-2xl font-semibold text-white mb-4">{service.title}</h2>
+                  <ul className="list-disc list-inside text-white">
                     {service.items.map((item, idx) => (
                       <li key={idx} className="text-lg">{item}</li>
                     ))}
