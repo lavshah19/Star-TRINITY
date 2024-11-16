@@ -8,7 +8,7 @@ import MajorClients from './MajorClients';
 const Services = () => {
   const services = [
     {
-      title: "Construction Services",
+      title: "Masonry and Carpentry Services",
       items: [
         "Mason (Block, Tile, Plaster, Concrete, Marble)",
         "Carpenter (Finishing & Shuttering, Fixer)",
@@ -17,7 +17,7 @@ const Services = () => {
       img: "https://plus.unsplash.com/premium_photo-1682882688309-54527c93dc97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Electrical Services",
+      title: "Electrical and Plumbing Services",
       items: [
         "Electrician",
         "Pipe Fitter",
@@ -27,7 +27,7 @@ const Services = () => {
       img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Operational Roles",
+      title: "Operational and Supervisory Roles",
       items: [
         "Supervisor",
         "Time Keeper",
@@ -37,7 +37,7 @@ const Services = () => {
       img: "https://plus.unsplash.com/premium_photo-1661962226921-4ae283c4be59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Fabrication and Maintenance",
+      title: "Fabrication, Painting, and Welding",
       items: [
         "Fabricator (Certified)",
         "Painter",
@@ -49,7 +49,7 @@ const Services = () => {
       img: "https://images.unsplash.com/photo-1513350375601-5040cae53a97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Installation and Management",
+      title: "Installation and Logistics Management",
       items: [
         "Installer",
         "Chargehand",
@@ -61,6 +61,7 @@ const Services = () => {
       img: "https://plus.unsplash.com/premium_photo-1681074963670-2110c58f4c24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
+  
 
   return (
     <>

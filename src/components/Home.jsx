@@ -9,7 +9,7 @@ import Contact from './Contact';
 const Home = () => {
   const handleContactClick = () => {
     window.location.href =
-      'mailto:info@star.com?subject=Inquiry&body=Hello, I would like to know more about your services.';
+      'mailto:info@adminstartrinity.com?subject=Inquiry&body=Hello, I would like to know more about your services.';
   };
 
   return (

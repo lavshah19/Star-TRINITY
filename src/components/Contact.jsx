@@ -28,8 +28,8 @@ const Contact = () => {
           <div className="mt-6 text-white text-center">
             <p>
               <strong>Email:</strong>
-              <a href="mailto:info@satsifydoha.com" className="text-yellow-200 hover:underline">
-                info@star.com
+              <a href="mailto:info@adminstartrinity.com" className="text-yellow-200 hover:underline">
+              info@adminstartrinity.com
               </a>
             </p>
             <p>
@@ -40,7 +40,9 @@ const Contact = () => {
             </p>
             <p><strong>Address:</strong> P.O. Box: 41029, Al Ghanim, Doha, Qatar</p>
             <p><strong>Chief Executive Officer:</strong> Mohammed Nasser M.Y Al-Haddad</p>
+            <p><strong>Business Executive:</strong>  Ramesh Rokaya</p>
           </div>
+         
         </div>
 
         {/* Right Side: Contact Form */}
